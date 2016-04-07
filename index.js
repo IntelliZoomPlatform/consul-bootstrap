@@ -48,8 +48,7 @@ let insertKeyValuePair = (key) => {
 
 let insertTasks = _.keys(flattenedObject).map(insertKeyValuePair);
 
-console.log(insertTasks.length);
-
 async.parallel(insertTasks, (err) => {
   assert(!err, 'Error inserting key/value pairs', err);
+  console.log('Key-Value pairs uploaded to Consul successfully.');
 });
