@@ -1,0 +1,25 @@
+{
+  "name": "consul-bootstrap",
+  "version": "1.0.0",
+  "description": "Utility to load a JSON file as KV pairs in Consul",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "author": "Richard Clayton <rclayton@userzoom.com> (https://rclayton.silvrback.com)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/YEDev/consul-bootstrap.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "consul": "^0.24.0",
+    "lodash": "^4.8.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

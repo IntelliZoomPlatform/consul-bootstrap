@@ -1,0 +1,11 @@
+{
+  "integer": 1,
+  "decimal": 42.42,
+  "boolean": true,
+  "string": "string",
+  "array": [1,2,"three"],
+  "object": {
+    "@preserve": true,
+    "foo": "bar"
+  }
+}
